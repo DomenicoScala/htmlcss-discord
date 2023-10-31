@@ -1,0 +1,191 @@
+/*
+
+   RESET
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+
+   GENERAL
+
+*/
+ .container{
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+
+ .container3{
+    padding: 100px 0;
+}
+
+.container4{
+    padding: 100px 0;
+}
+
+.contgreen{
+    padding: 100px 0;
+}
+
+
+
+ /*
+
+   MAIN
+
+*/
+
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-col-logo{
+    width: 25%;
+}
+
+.my-col-link{
+    width: 50%;    
+}
+
+.my-col-login{
+    width: 25%;
+    text-align: right;
+}
+ 
+.my-col-link ul li{
+    display: inline-block;
+}
+
+.my-col-link ul{
+    text-align: center;
+}
+
+.container2{
+    max-width: 800px;
+}
+
+.col70{
+    width: 70%;
+    background-color: rgb(0, 252, 252);
+}
+
+.col30{
+    width: 30%;
+    background-color: pink;
+}
+
+main > section:nth-child(even){
+    background-color: lightgray;
+}
+
+.box-green{
+    background-color: green;
+    min-height: 600px;
+    border: 2px dashed black;
+}
+
+.col-1-4{
+    width: calc((100% / 4) * 1);
+}
+
+.col-3-4{
+    width: calc((100% / 4) * 3);
+}
+
+
+ /*
+
+    FOOTER
+
+*/
+
+footer{
+    background-color: rgb(41, 41, 41);
+}
+
+.footer-top{
+    padding: 20px 0;
+}
+
+.footer-top hr{
+    margin-top: 20px;
+}
+
+.footer-bottom .sign-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+
+/*
+
+   DEBUG
+
+*/
+
+.debug .header-top{
+    background-color: #ADD8E6; 
+    padding: 10px 0;
+}
+
+.debug .header-top .my-row{
+    background-color: goldenrod;
+}
+
+.debug .header-top .my-row > * {
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+.debug .header-bottom{
+    background-color: rgb(0, 0, 177);
+    padding: 50px 0;
+}
+
+.debug .header-bottom .jumbotron{
+    background-color: rgb(255, 0, 255);
+    min-height: 400px;
+    border: 1px dashed black;
+}
+
+
+.debug main section .my-row > *{
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+
+.debug .footer-top-main{
+    background-color: coral;
+}
+
+.debug .footer-top-main > *{
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug .footer-top-secondary{
+    background-color: cadetblue;
+}
+
+.debug .footer-top-secondary > *{
+    border: 1px dashed rgb(255, 255, 255);
+    min-height: 400px;
+}
+
+.debug .footer-bottom .sign-container{
+    background-color: aquamarine;
+}
+
+.debug .sign-container > * {
+    background-color: pink;
+    border: 1px black dashed;
+}
