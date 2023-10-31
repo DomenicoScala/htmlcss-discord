@@ -35,14 +35,34 @@
     padding: 100px 0;
 }
 
+
 .button{
-    background-color: white;
     border-radius: 20px;
-    padding: 5px 13px;
+    padding: 13px 13px;
     text-decoration: none;
+    vertical-align: middle;
+    margin-top: 14px;
+}
+
+
+
+.white{
+    background-color: white;
     color: black;
-    margin-top: 10px;
-    
+    margin-right: 10px;    
+}
+
+.black{
+    background-color: #23272A;
+    color: white;
+    padding: 13px 15px;
+    margin-left: 15px;
+}
+
+
+.flex-button{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -53,10 +73,19 @@
 */
 
 .header-top{
-    background-color: #2349A5; 
+    background-color: #255EE9; 
     padding: 10px 0;
 }
 
+.header-top .my-row > * {
+    padding: 10px;
+}
+
+.header-bottom{
+    background-image: url(../img/jumbo.png);
+    padding: 50px 0;
+    background-size: cover;
+}
 
 .my-row{
     display: flex;
@@ -93,6 +122,26 @@ li > a{
 .container2{
     max-width: 800px;
 }
+
+.jumbotron > h1{
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.jumbotron h1,p{
+    color: white;
+    text-align: center;
+}
+
+.jumbotron p{
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 390;
+
+}
+
 
 
  /*
@@ -164,24 +213,16 @@ footer{
 
 
 
-/* .debug .header-top .my-row{
-    background-color: goldenrod;
-} */
 
-.debug .header-top .my-row > * {
-    /* border: 1px dashed black; */
-    padding: 10px;
-}
 
-.debug .header-bottom{
-    background-color: rgb(0, 0, 177);
-    padding: 50px 0;
-}
+
+
+
 
 .debug .header-bottom .jumbotron{
-    background-color: rgb(255, 0, 255);
+    /* background-color: rgb(255, 0, 255); */
     min-height: 400px;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 
