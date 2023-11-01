@@ -79,11 +79,11 @@
 .blue{
     background-color: #7289DA;
     max-width: 15%;
-    display: block;
     margin: 0 auto;
     margin-top: 40px;
     color: white;
 }
+
 
  /*
 
@@ -258,7 +258,7 @@ main > section:nth-child(even){
 */
 
 footer{
-    background-color: rgb(41, 41, 41);
+    background-color: #23272A;
 }
 
 .footer-top{
@@ -275,6 +275,52 @@ footer{
     padding: 20px 0;
 }
 
+
+.col-1-4 h3{
+    font-size: 30px;
+    padding: 40px 40px 0px;
+    margin-top: 40px;
+    color: #7289DA;
+}
+
+.col-1-4 img{
+    width: 30px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 39px;
+}
+
+
+.col-1-4 p{
+    color: white;
+    display: inline-block;
+    margin-left: 7px;
+    font-weight: 200;
+    vertical-align: super;
+}
+
+select{
+    text-decoration: none;
+    background-color:#23272A;
+    border: none;
+    color: white;
+    vertical-align: super;
+    
+}
+
+
+.iflex{
+    padding-left: 38px;
+}
+
+
+
+.col-1-4 i{
+    color: white;
+    display: inline-block;
+    margin: 13px 3px;
+
+}
 
 /*
 
@@ -300,11 +346,11 @@ footer{
 
 
 .debug .footer-top-main{
-    background-color: coral;
+    /* background-color: coral; */
 }
 
 .debug .footer-top-main > *{
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     min-height: 400px;
 }
 
