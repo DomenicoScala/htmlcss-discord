@@ -130,11 +130,12 @@
 li > a{
     color: white;
     text-decoration: none;
+    font-weight: 300;
 }
 
 .my-col-link ul li{
     display: inline-block;
-    margin: 0 8px;
+    margin: 0 16px;
 }
 
 .my-col-link ul{
