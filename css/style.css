@@ -207,8 +207,9 @@ main > section:nth-child(even){
 
 .box-green h3{
     background-image: url(../img/stars.svg);
-    background-size: contain;
+    background-size:contain;
 }
+
 
 
 
@@ -309,7 +310,7 @@ select{
 }
 
 
-.iflex{
+.icon{
     padding-left: 38px;
 }
 
@@ -322,52 +323,34 @@ select{
 
 }
 
-/*
+.col-1-4 nav ul{
+    color: white;
+    list-style: none;
+    
+}
 
-   DEBUG
+.col-1-4 nav ul li{
+    margin-top: 15px;
+}
 
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-.debug main section .my-row > *{
-    /* border: 1px dashed black; */
-    min-height: 400px;
+ul li:first-child{
+    color: #7289DA;
 }
 
 
-.debug .footer-top-main{
-    /* background-color: coral; */
+.ulflex{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding: 75px 0 70px 70px;  
 }
 
-.debug .footer-top-main > *{
-    /* border: 1px dashed black; */
-    min-height: 400px;
-}
 
-.debug .footer-top-secondary{
-    background-color: cadetblue;
-}
 
-.debug .footer-top-secondary > *{
-    border: 1px dashed rgb(255, 255, 255);
-    min-height: 400px;
-}
 
-.debug .footer-bottom .sign-container{
-    background-color: aquamarine;
-}
 
-.debug .sign-container > * {
-    background-color: pink;
-    border: 1px black dashed;
-}
+
+
+
+
+
