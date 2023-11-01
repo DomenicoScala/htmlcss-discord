@@ -76,6 +76,15 @@
 }
 
 
+.blue{
+    background-color: #7289DA;
+    max-width: 15%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: white;
+}
+
  /*
 
    HEADER
@@ -195,6 +204,12 @@ main > section:nth-child(even){
     margin-top: 20px;
     text-align: center;
 }
+
+.box-green h3{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+
 
 
 .col-1-4{
